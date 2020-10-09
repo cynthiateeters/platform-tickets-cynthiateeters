@@ -1,0 +1,100 @@
+body {
+  background: #f2f2f2;
+  font-family: 'Questrial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+main {
+  background-color: #faa272;
+  width: 740px;
+}
+
+/* div {
+  outline: 1px solid black;
+} */
+
+.ticket-body div {
+  padding: 0.2rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 240px;
+  grid-template-rows: 1fr;
+}
+
+.ticket-body {
+  background-color: ivory;
+}
+
+/* .parent {
+  display: grid;
+  grid-template-rows: 8fr 1fr 4fr 8fr 4fr;
+} */
+
+p.div1font {
+  font-size: 2.2rem;
+  padding-top: 1rem;
+  word-spacing: -0.5rem;
+}
+
+p.div2font {
+  font-size: 0.8em;
+}
+
+p.div3font {
+  font-weight: bold;
+  font-size: 1.1em;
+  word-spacing: 1rem;
+}
+
+p.div4font1 {
+  font-weight: 600;
+}
+
+p.div4font2 {
+  font-size: 1.5rem;
+}
+
+p.div5font {
+  font-size: 1.8rem;
+}
+
+/*    stub */
+
+.stub {
+  display: grid;
+  width: 100%;
+  writing-mode: vertical-rl;
+}
+
+.div6 {
+  order: 5;
+}
+
+.div7 {
+  order: 4;
+}
+
+.div8 {
+  order: 3;
+}
+
+.div9 {
+  order: 2;
+}
+
+.div10 {
+  order: 1;
+  width: 32px;
+  outline: none;
+}
